@@ -1,15 +1,30 @@
         .point {
           margin: 0 auto;
         }
+        .section-padding{
+            padding:0 1em;
+        }
+
+        .time {
+          border-bottom: 1px solid #EEE;
+          padding-bottom: .7em;
+          margin: 0 -1em;
+        }
 
         .pointline {
           color: #00a1ff;
         }
 
+        .section-1 {
+            border: 1px solid #f6f6f6;
+            padding: 1em 0;
+            border-radius: 5px;
+        }
+
         .subcont {
           border: 1px solid #ced4da;
           padding: 20px;
-          font-size:
+          font-size: 14px;
         }
 
         .line {
@@ -24,10 +39,15 @@
         .city {
           border: 1px solid #ced4da;
           border-radius: 100px;
+          color: gray;
         }
 
         .averpoint>img {
           max-width: 100%;
+        }
+
+        .averpoint {
+         margin: 0 -1em;
         }
 
         .card-title {
@@ -46,11 +66,16 @@
         .point_data {
           font-weight: 300;
           color: #8b9ec1;
+          font-size: 19px;
         }
 
         .dataimg>img {
           width: 22px;
         }
+       .image{
+        margin: 0 -1.25em;
+        padding-bottom: 1em;   
+       }
 
         .image>img {
           max-width: 100%;
@@ -59,6 +84,10 @@
         .like-dislike {
           color: #1286c8;
           cursor: pointer;
+          padding: .5em 0;
+        }
+        .likesupport{
+            border-right: 1px solid #1286c8;
         }
 
         .ingq {
@@ -66,8 +95,9 @@
           cursor: pointer;
         }
 
-        enterprices {
+        .enterprices {
           color: #c28e4c;
+          font-weight:500;
           cursor: pointer;
         }
 
@@ -85,11 +115,11 @@
         }
 
         .check {
-          color: green;
+          color: #7fb800;
         }
 
         .verfied {
-          color: rgb(211, 230, 237);
+          color: #b7c6cf;
         }
 
         .item {
@@ -121,6 +151,17 @@
         }
 
         .ADD-share-invite {
-          color: gray;
-          font-weight: 600;
+          color: #b7c6cf;
+          font-weight: 700;
+        }
+        .support{
+            font-weight: 800;
+            font-size: 18px; 
+        }
+        .margin-bottom{
+          border-bottom: 1px solid #EEE;
+            margin: 0 -1.25em;
+            padding: 0 1.25em;
+            padding-bottom: 1em;
+            
         }

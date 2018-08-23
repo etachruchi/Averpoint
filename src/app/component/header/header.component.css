@@ -1,24 +1,29 @@
 .averpoint>img {
-    max-width: 100%;
-    width: 200px;
-    position: relative;
+  max-width: 100%;
+  width: 200px;
+  position: relative;
 }
 
 li>a {
-    padding: 10px;
-    color:black;
+  padding: 10px;
+  color: black;
 }
 
 .search {
-    border-top-left-radius: 100px;
-    border-bottom-left-radius: none;
-    position: relative;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: none;
+  position: relative;
 }
 
 .header {
-    position: fixed;
+  position: fixed;
 }
 
 .container {
-    position: relative;
+  position: relative;
+}
+
+.input{
+  border-radius: 18px;
+  font-family: FontAwesome;
 }
