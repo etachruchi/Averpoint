@@ -1,0 +1,24 @@
+.averpoint>img {
+    max-width: 100%;
+    width: 200px;
+    position: relative;
+}
+
+li>a {
+    padding: 10px;
+    color:black;
+}
+
+.search {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: none;
+    position: relative;
+}
+
+.header {
+    position: fixed;
+}
+
+.container {
+    position: relative;
+}

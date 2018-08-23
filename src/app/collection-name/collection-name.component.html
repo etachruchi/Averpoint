@@ -1,0 +1,196 @@
+<div class="">
+  <div class="header">
+    <app-header></app-header>
+  </div>
+  <div class="subcontainer mb-4">
+    <div class="line text-center p-md-2">
+      Collection's name
+    </div>
+    <div class="point mt-3 col-md-9">
+      <div class="float-right">
+        <div class="dataimg">
+          <img src="{{pointData.image}}"> {{pointData.name}}
+        </div>
+      </div>
+      <span class="datapoint">Point:</span> &nbsp;
+      <span class="point_data">{{pointData.point}}</span>
+
+      <div class="line2 mt-2">
+
+      </div>
+      <div class="mt-3 subData">
+        {{pointData.data}}</div>
+      <div class="mt-3 subcont rounded">
+        {{pointData.data}}
+        <br>
+        <div class="dataimg">
+          <img src="{{pointData.image}}"> {{pointData.name}}</div>
+      </div>
+      <div class="row mt-3">
+        <div class="city  ml-4 p-md-2">
+          <span class="p-md-2"> city </span>
+        </div>
+        <div class="city  ml-4 p-md-2">
+          <span class="p-md-2">infrastructure </span>
+        </div>
+        <div class="city  ml-4 p-md-2">
+          <span class="p-md-2">Trump </span>
+        </div>
+      </div>
+      <div class="averpoint text-center mt-3">
+        <img src="{{jhonPoint.image}}">
+      </div>
+      <div class="p-md-2 ml-2">
+        <span class="ADD-share-invite">
+          <i class="fa fa-plus"></i> ADD
+          <i class="fa fa-share-alt ml-2"></i> Share
+          <i class="fa fa-user-plus ml-2"></i> Invite
+          <span class="float-right">
+            <i class="fa fa-upload "></i> Publish</span>
+        </span>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+
+          <div class="card mt-2">
+            <div class="card-img-top col-md-12 ">
+              <div class="card-title row p-md-3 mb-0">
+                <div class="col-md-6">
+                  <i class="fa fa-thumbs-up"></i> 23 Supported
+                </div>
+                <div class="col-md-3 ">
+                  123 Points
+                </div>
+                <div class="col-md-3 text-right">
+                  <i class="fa fa-plus plus"></i>
+                </div>
+
+                <div class="ml-3 facts">17 Sub-points</div>&nbsp;&nbsp;
+                <div class="facts">7 Facts</div>
+
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="card-body mt-4 col-md-12" *ngFor="let point of point">
+              <div>
+                <span class="datapoint ">Point:
+                  <span class="point-hour">{{point.point}}</span>
+                </span>
+                <span class="dataimg float-right">
+                  <img src="{{point.image[1]}}"> {{point.name}}</span>
+              </div>
+              <hr>
+              <div class="post">
+                <span> {{point.post}}</span>
+                <div class="dataimg">
+                  <img src="{{point.image[1]}}"> {{point.name}}
+                  <div class="float-right ingq">{{point.value}}</div>
+                </div>
+
+              </div>
+              <div class="row mt-3">
+                <div class="city ml-3 p-md-2">
+                  <span class="p-md-2"> {{point.category[0]}}</span>
+                </div>
+
+                <div class="city ml-3 p-md-2">
+                  <span class="p-md-2">{{point.category[1]}}</span>
+                </div>
+              </div>
+              <div class="image mt-3">
+                <img src="{{point.image[0]}}">
+              </div>
+              <div class="row like-dislike">
+                <div class="col-md-6">
+                  <i class="fa fa-thumbs-up"></i> Supported: {{point.support}}
+                </div>
+
+                <div class="col-md-6">
+                  <i class="fa fa-thumbs-down"></i> Oppose: {{point.oppose}}
+                </div>
+              </div>
+              <div class="row subpoint">
+                <div class="col-md-6">
+                  {{point.subPoint}} {{point.facts}}
+                </div>
+
+                <div class="col-md-6">
+                  {{point.subPoint}} {{point.facts}}
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="card  mt-2">
+            <div class="card-img-top col-md-12 ">
+              <div class="card-title row p-md-3 mb-0">
+                <div class="col-md-5">
+                  <i class="fa fa-thumbs-down"></i> 12 Oppose
+                </div>
+                <div class="col-md-4">
+                  409 Points
+                </div>
+                <div class="col-md-3 text-center">
+                  <i class="fa fa-plus plus"></i>
+                </div>
+                <div class="ml-4 facts">4 Sub-points</div>&nbsp;&nbsp;
+                <div class="facts">10 Facts</div>
+              </div>
+            </div>
+          </div>
+          <div class="">
+
+            <div class="card-body mt-4 col-md-12" *ngFor="let fact of fact">
+              <div>
+                <span class="datapoint ">
+                  <span class="hour">Fact:</span>
+                  <span class="fact-point">&nbsp;{{fact.point}}</span>
+                </span>
+                <span class="dataimg float-right">
+                  <img src="{{fact.image}}"> {{fact.name}}</span>
+              </div>
+              <hr>
+              <div class="post">
+                <span> {{fact.post}}</span>
+                <div class="dataimg">
+                  <img src="{{fact.image}}"> {{fact.name}}
+                  <div class="float-right enterprices">{{fact.value}}</div>
+                </div>
+
+              </div>
+              <div class="row mt-3">
+                <div class="city ml-3 p-md-2">
+                  <span class="p-md-2">Tag</span>
+                </div>
+
+                <div class="city ml-3 p-md-2">
+                  <span class="p-md-2">Tag</span>
+                </div>
+                <div class="city ml-3 p-md-2">
+                  <span class="p-md-2">Tag</span>
+                </div>
+              </div>
+              <hr>
+              <div class="row item">
+
+                <i class="fa fa-check check ml-4 "></i>
+                <div class="verfied ml-2">Verified</div>
+
+              </div>
+              <hr>
+              <div class="col-md-6 text-center ml-4 ">
+                Full Page
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,126 @@
+        .point {
+          margin: 0 auto;
+        }
+
+        .pointline {
+          color: #00a1ff;
+        }
+
+        .subcont {
+          border: 1px solid #ced4da;
+          padding: 20px;
+          font-size:
+        }
+
+        .line {
+          border: solid #e8f1f8;
+          background-color: #e8f1f8;
+        }
+
+        .line2 {
+          border-bottom: 1px solid #000000;
+        }
+
+        .city {
+          border: 1px solid #ced4da;
+          border-radius: 100px;
+        }
+
+        .averpoint>img {
+          max-width: 100%;
+        }
+
+        .card-title {
+          background-color: #1286c8;
+          cursor: pointer;
+          color: white;
+          padding: 0;
+        }
+
+        .datapoint {
+          color: #1286c8;
+          cursor: pointer;
+          font-weight: 800;
+        }
+
+        .point_data {
+          font-weight: 300;
+          color: #8b9ec1;
+        }
+
+        .dataimg>img {
+          width: 22px;
+        }
+
+        .image>img {
+          max-width: 100%;
+        }
+
+        .like-dislike {
+          color: #1286c8;
+          cursor: pointer;
+        }
+
+        .ingq {
+          color: #1286c8;
+          cursor: pointer;
+        }
+
+        enterprices {
+          color: #c28e4c;
+          cursor: pointer;
+        }
+
+        .card-body {
+          flex: unset;
+          border: 1px solid #eeeeee47
+        }
+
+        .pointData {
+          color: rgb(211, 230, 237);
+        }
+
+        .facts {
+          color: rgb(211, 230, 237);
+        }
+
+        .check {
+          color: green;
+        }
+
+        .verfied {
+          color: rgb(211, 230, 237);
+        }
+
+        .item {
+          align-items: center;
+        }
+
+        .subpoint {
+          color: #1286c8;
+          font-size: 14px;
+        }
+
+        .hour {
+          color: #c28e4c;
+          font-weight: 800;
+        }
+
+        .fact-point {
+          color: #eddeca;
+          font-weight: 400;
+        }
+
+        .subData {
+          font-weight: 600;
+        }
+
+        .point-hour {
+          color: #8b9ec1;
+          font-weight: 300;
+        }
+
+        .ADD-share-invite {
+          color: gray;
+          font-weight: 600;
+        }
